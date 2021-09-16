@@ -1,27 +1,31 @@
-# AdminConsole
+![Carey Development Logo](http://careydevelopment.us/img/branding/careydevelopment-logo-sm.png)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+# Carey Development Admin Console
 
-## Development server
+![license](https://img.shields.io/badge/license-MIT-blue.svg) 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This is an ongoing project that demonstrates how to build an admin console with Angular and Bootstrap.
 
-## Code scaffolding
+Each lesson is a separate branch. The latest state of the whole project is in the master branch.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Dependencies
+DON'T FORGET TO INSTALL THE DEPENDENCIES! You can do that easily by opening a command prompt, going to
+the directory where this project is located, and typing:
 
-## Build
+```
+npm install
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+That's it. That should do it.
 
-## Running unit tests
+If you're still having issues, you might need to blow away everything in the node_modules directory
+run npm install again.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## All the Guides
+If you're interested in following the guides, just view the 
+<a href="https://careydevelopment.us/tag/careydevelopmentadmin" target="_blank">careydevelopmentadmin</a>
+tag on the Carey Development website. Note that all lessons are in reverse chronological order 
+so if you want to start at the beginning, go to the last page.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## License
+This code is under the [MIT License](https://github.com/careydevelopment/admin-console/blob/master/LICENSE).
