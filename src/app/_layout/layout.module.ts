@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { LayoutComponent } from './layout.component';
 import { AsideComponent } from './components/aside/aside.component';
+import { TopMenuComponent } from './components/top-menu/top-menu.component';
 
 const routes: Routes = [
   {
@@ -14,7 +15,8 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     LayoutComponent,
-    AsideComponent
+    AsideComponent,
+    TopMenuComponent
   ],
   imports: [
     CommonModule,
