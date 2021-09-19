@@ -1,0 +1,9 @@
+<div class="d-flex" [ngClass]="{'flex-row': showVerticalMenu, 'flex-column' : showHorizontalMenu, 'vh-100' : showHorizontalMenu }">
+    <div>
+      <app-aside *ngIf="showVerticalMenu"></app-aside>
+      <app-top-menu *ngIf="showHorizontalMenu"></app-top-menu>
+    </div>
+    <div class="d-flex flex-fill justify-content-center content">
+      <div class="align-self-center">This is my content</div>
+    </div>
+</div>
