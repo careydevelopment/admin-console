@@ -27,16 +27,18 @@ nav {
 }
 
 .menu-item-text {
+  width: 100%;
+
   a {
     text-decoration: none;
-    display: block;
+    display: block !important;
   }
 }
 
 .basic-item:hover,
 .basic-item:focus {
   color: rgba(0, 0, 0, .85);
-  background-color: $menu-highlight-color;
+  background-color: $dropdown-link-hover-bg;
   cursor: pointer;
 }
 
@@ -56,23 +58,16 @@ nav {
   transform: rotate(90deg);
 }
 
-.menu-item-text {
-  width: 100%;
+.child-item {
+  padding-left: 2rem;
 }
 
 .child-items {
   a {
     display: inline-flex;
-    padding: .1875rem .5rem;
     margin-top: .125rem;
-    padding-left: 1.85rem;
     text-decoration: none;
     font-weight: 400;
     font-size: 11pt;
   }
-}
-
-.child-items a:hover,
-.child-items a:focus {
-  background-color: $menu-highlight-color;
 }
