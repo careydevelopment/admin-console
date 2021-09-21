@@ -1,27 +1,46 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light vh-100 align-items-start" style="width: 250px">
-  <div class="container-fluid">
+<nav class="navbar bg-light vh-100 align-items-start">
+  <div class="p-4">
     <div class="text-center">
-      <a class="navbar-brand" href="/">
+      <a href="/">
         <img src="https://careydevelopment.us/img/branding/careydevelopment-logo-sm.png" class="w-75" />
       </a>
       <hr />
     </div>
-    <div class="collapse navbar-collapse">
-      <ul class="navbar-nav flex-column">
-        <li class="nav-item">
-          <a class="nav-link" href="/">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/contact">Contact</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Account</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="/login">Login</a></li>
-            <li><a class="dropdown-item" href="/register">Register</a></li>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <div class="basic-item text-start rounded">
+          <span><a href="/" class="link-dark"><i class="bi bi-house-door"></i></a></span>
+          <span class="menu-item-text"><a href="/" class="nav-link link-dark">Home</a></span>
+        </div>
+      </li>
+      <li class="nav-item">
+        <div class="basic-item text-start rounded">
+          <span><a href="/contact" class="link-dark"><i class="bi bi-envelope"></i></a></span>
+          <span class="menu-item-text"><a href="/contact" class="link-dark">Contact</a></span>
+        </div>
+      </li>
+      <li class="nav-item">
+        <div class="basic-item parent-item text-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+          <span><i class="bi bi-person-circle"></i></span>
+          <span class="menu-item-text link-dark">Account</span>
+        </div>
+        <div class="collapse" id="account-collapse">
+          <ul class="child-items list-unstyled">
+            <li class="nav-item">
+              <div class="child-item basic-item text-start rounded">
+                <span><a href="/login" class="link-dark"><i class="bi bi-box-arrow-in-right"></i></a></span>
+                <span class="menu-item-text"><a href="/login" class="link-dark">Login</a></span>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="child-item basic-item text-start rounded">
+                <span><a href="/register" class="link-dark"><i class="bi bi-person-plus"></i></a></span>
+                <span class="menu-item-text"><a href="/register" class="link-dark">Register</a></span>
+              </div>
+            </li>
           </ul>
-        </li>
-      </ul>
-    </div>
+        </div>
+      </li>
+    </ul>
   </div>
 </nav>

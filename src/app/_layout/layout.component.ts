@@ -31,7 +31,7 @@ export class LayoutComponent implements OnInit {
     if (!innerWidth) innerWidth = window.innerWidth;
 
     if (layout.menuType.type == 'vertical') {
-      if (innerWidth < BootStrapConfig.LG) {
+      if (innerWidth <= BootStrapConfig.MD) {
         this.showHorizontalMenu = true;
         this.showVerticalMenu = false;
       } else {

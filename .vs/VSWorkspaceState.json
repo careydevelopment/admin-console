@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\_layout",
+    "\\src\\app\\_layout\\components\\aside",
+    "\\src\\app\\_layout\\components\\top-menu",
+    "\\src\\app\\_layout\\config"
+  ],
+  "SelectedNode": "\\src\\app\\_layout\\config\\color-config.scss",
+  "PreviewInSolutionExplorer": false
+}

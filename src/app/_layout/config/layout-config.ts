@@ -13,6 +13,6 @@ export interface Layout {
 export const layout: Layout = {
   menuType: {
     componentName: 'menuType',
-    type: 'horizontal'
+    type: 'vertical'
   }
 }
