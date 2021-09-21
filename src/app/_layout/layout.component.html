@@ -1,4 +1,4 @@
-<div class="d-flex" [ngClass]="{'flex-row': showVerticalMenu, 'flex-column' : showHorizontalMenu, 'vh-100' : showHorizontalMenu }">
+<div class="d-flex" [ngClass]="showVerticalMenu ? 'flex-row' : 'flex-column'">
     <div>
       <app-aside *ngIf="showVerticalMenu"></app-aside>
       <app-top-menu *ngIf="showHorizontalMenu"></app-top-menu>
