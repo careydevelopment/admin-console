@@ -1,0 +1,30 @@
+/*
+    Configure your colors here by name.
+
+    You can see the colors by name at https://www.w3schools.com/colors/colors_names.asp
+
+*/
+
+//globals
+$menu-background-color: white;
+$menu-text-color: darkslategrey;
+$menu-highlight-color: deepskyblue;
+
+//Bootstrap SCSS variables
+$dropdown-link-hover-bg: $menu-background-color;
+$dropdown-link-active-bg: $menu-background-color;
+$dropdown-link-color: $menu-text-color;
+$dropdown-link-hover-bg: $menu-background-color;
+$dropdown-link-hover-color: $menu-highlight-color;
+$dropdown-link-active-color: $menu-text-color;
+$dropdown-link-active-bg: $menu-background-color;
+
+$navbar-light-color: $menu-text-color;
+$navbar-light-hover-color: $menu-highlight-color;
+
+$nav-link-color: $menu-text-color;
+$nav-link-hover-color: $menu-highlight-color;
+
+.bg-light {
+  background-color: $menu-background-color !important;
+}

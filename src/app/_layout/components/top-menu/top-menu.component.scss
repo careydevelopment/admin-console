@@ -1,25 +1,29 @@
-@import '../../config/color-config';
+@import '../../config/theme';
+
+div, ul, li {
+  background-color: inherit;
+}
 
 .basic-item:hover,
 .basic-item:focus {
-  color: rgba(0, 0, 0, .85);
-  background-color: $dropdown-link-hover-bg;
+  background-color: $dropdown-link-hover-bg !important;
+  color: $menu-highlight-color !important;
   cursor: pointer;
 }
 
 .child-menu-item {
   display: inline-flex;
-  align-items: center;
-  padding: .25rem .5rem;
-  color: rgba(0, 0, 0, .65);
-  background-color: transparent;
-  border: 0;
   width: 100%;
+  color: $menu-text-color;
 }
 
 .child-menu-item:hover,
 .child-menu-item:focus {
-  color: rgba(0, 0, 0, .85);
-  background-color: $dropdown-link-hover-bg;
+  background-color: $dropdown-link-hover-bg !important;
+  color: $menu-highlight-color !important;
   cursor: pointer;
+}
+
+.bi {
+  padding-right: 10px;
 }
