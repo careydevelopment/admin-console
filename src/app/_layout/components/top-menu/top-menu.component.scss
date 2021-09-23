@@ -4,6 +4,14 @@ div, ul, li {
   background-color: inherit;
 }
 
+nav {
+  background-color: $menu-background-color !important;
+}
+
+.navbar-toggler {
+  background-color: $menu-highlight-bg !important;
+}
+
 .basic-item:hover,
 .basic-item:focus {
   background-color: $dropdown-link-hover-bg !important;

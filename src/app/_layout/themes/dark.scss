@@ -6,33 +6,9 @@
 */
 
 //globals
-$dark-background-color: black;
-$light-background-color: dimgrey;
-
 $menu-background-color: black;
 $menu-text-color: ghostwhite;
 $menu-highlight-color: ghostwhite;
 $menu-highlight-bg: slategrey;
 
-//Bootstrap SCSS variables
-$dropdown-link-hover-bg: $menu-highlight-bg;
-$dropdown-link-active-bg: $menu-background-color;
-$dropdown-link-color: $menu-text-color;
-$dropdown-link-hover-color: $menu-highlight-color;
-$dropdown-link-active-color: $menu-text-color;
-$dropdown-link-active-bg: $menu-background-color;
 
-$navbar-light-color: $menu-text-color;
-$navbar-light-hover-color: $menu-highlight-color;
-$navbar-light-active-color: $menu-text-color;
-
-$nav-link-color: $menu-text-color;
-$nav-link-hover-color: $menu-highlight-color;
-
-.bg-light {
-  background-color: $light-background-color !important;
-}
-
-.bg-dark {
-  background-color: $dark-background-color !important;
-}
